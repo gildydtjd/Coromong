@@ -1,0 +1,27 @@
+.footer {
+  padding: 25px 0 25px;
+  background-color: #252525;
+  position: relative;
+  max-height: 10vh;
+}
+
+ul, li {
+  list-style: none;
+}
+.footer_ul {
+  text-align : center;
+}
+
+li {
+  color: #888;
+  display: inline;
+  margin-right: 12px;
+}
+
+p {
+  float: center;
+  color: #888;
+  letter-spacing: 2px;
+  font : 400 14px/ 40px 'Open Sans', sans-serif;
+}
+

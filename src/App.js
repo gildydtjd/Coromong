@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom';
+import Footer from './footer/Footer';
+import Body from './body/Body';
+import Header from './header/Header';
+import Notice from './body/Notice';
+import News from './body/News';
+import Hospital from './body/Hospital';
+import Mask from './body/Mask';
+import Infection from './body/Infection';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+                <Route exact path="/" component={Body}/>
+                <Route path="/Home" component={Body}/>
+                <Route path="/Notice" component={Notice}/>
+                <Route path="/Infection" component={Infection}/>
+                <Route path="/News" component={News}/>
+                <Route path="/Hospital" component={Hospital}/>
+                <Route path="/Mask" component={Mask}/>
+      <Footer/>
     </div>
   );
 }
