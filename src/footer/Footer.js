@@ -5,15 +5,17 @@ export default function Footer() {
   return (
     <div className ='footer'>
       <ul className = 'footer_ul'>
-        <li> INTRO</li>
+        <li> HOME</li>
         <li>ㆍ</li>
-        <li> KEYWORD</li>
+        <li> NOTICE</li>
         <li>ㆍ</li>
-        <li> PORTFOLIO</li>
+        <li> NEWS</li>
         <li>ㆍ</li>
-        <li> GALLERY</li>
+        <li> INFECTION</li>
         <li>ㆍ</li>
-        <li> CONTACT</li>
+        <li> HOSPITAL</li>
+        <li>ㆍ</li>
+        <li> MASK</li>
       </ul>
       <h2>
         <p>©2020 YONGSUNG GIL</p>
