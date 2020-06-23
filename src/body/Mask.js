@@ -33,9 +33,10 @@ export default class Mask extends Component {
   render() {
      return (
       <div className="mask">
-        {this.state.stores.map(item =>{
+        {/* {this.state.stores.map(item =>{
          return(<span>{ item.addr}<br></br></span>)
-        })}
+        })} */}
+        
         </div>
     )
   }
