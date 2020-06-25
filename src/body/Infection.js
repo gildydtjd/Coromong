@@ -1,6 +1,25 @@
 import React, { Component } from 'react'
 import './infection.scss'
+// import Axios from 'axios';
+
 export default class Infection extends Component {
+	// constructor(props) {
+  //   super(props);
+  //   this.state = {
+	// 		INC_DEC : "",
+	// 		ISOL_CLEAR_CNT : "",
+	// 		GUBUN : "",
+	// 	}
+	// }
+	// componentDidMount(){
+	// 	Axios.get("http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson").then(res => {
+  //     const state = res.data;
+  //     console.log(res.data);
+	// 		this.setState(state);
+	// 		// INVALID REQUEST PARAMETER ERROR. 정보포털 OpenApi 사망..
+  //   })
+	// }
+	
   render() {
     return (
       <div className="infection">
@@ -23,12 +42,12 @@ export default class Infection extends Component {
                           <button type="button" data-city="map_city12" className=""><span className="name">충남</span><span className="num">163</span><span className="before">(+1)</span></button>
                           <button type="button" data-city="map_city13" className=""><span className="name">전북</span><span className="num">25</span><span className="before">(0)</span></button>
                           <button type="button" data-city="map_city14" className=""><span className="name">전남</span><span className="num">20</span><span className="before">(0)</span></button>
-                          <button type="button" data-city="map_city15" className="select"><span className="name">경북</span><span className="num">1,386</span><span className="before">(0)</span></button>
+                          <button type="button" data-city="map_city15" className=""><span className="name">경북</span><span className="num">1,386</span><span className="before">(0)</span></button>
                           <button type="button" data-city="map_city16" className=""><span className="name">경남</span><span className="num">133</span><span className="before">(0)</span></button>
                           <button type="button" data-city="map_city17" className=""><span className="name">제주</span><span className="num">19</span><span className="before">(0)</span></button>
                           <button type="button" data-city="map_city18" className=""><span className="name">검역</span><span className="num">672</span><span className="before">(+4)</span></button>
 													<svg xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="362px" height="480px" viewBox="0 0 400 530" enableBackground="new 0 0 362 480" xmlSpace="preserve">
-											<g>
+												<g>
 												<path className="map_city1" fill="#15a8de" stroke="#FFFFFF" strokeMiterlimit="10" d="M114.468,114.24l1.271,2.857l-0.635,2.222l2.857,0.635   l2.857,1.905l3.81,3.174h3.174c0,0,2.857-0.953,3.809-0.953c0.953,0,1.27,1.271,1.27,1.271l1.905,1.587h1.904h2.222l2.857-2.857   l3.492-2.539c0,0,0.952-2.222,0.952-3.174s0.317-2.857,0.317-2.857l1.587-2.222l-1.587-0.635h-2.856l-1.905-1.27l0.318-1.27   l0.952-2.54v-2.54l-0.317-2.222c0,0-0.318-1.587-0.953-2.54c-0.635-0.952-2.222-1.27-2.222-1.27l-5.079-0.635l-1.27,2.222   l-2.857,2.222l-3.491-0.952l-1.588,3.174l-1.904,3.492l-4.762-0.318l-3.492-0.952l-3.242,0.884l0.703,0.703l-1.905,3.492   l-0.006,0.019l1.594,0.298L114.468,114.24z"></path>
 												<path className="map_city2" fill="#b2e1ff" stroke="#FFFFFF" strokeMiterlimit="10" d="M324.614,374.858l-1.27-1.586l-3.492-0.636l-2.856,0.316   l-1.588,0.953l-3.175,1.27c0,0-0.634-0.635-1.269,0.317c-0.637,0.953-1.588,2.54-3.176,3.493c-1.587,0.95-0.635,1.904-3.491,2.221   c-2.856,0.318-2.856,0.318-2.856,0.318s-1.271,1.27-2.223,2.222c-0.951,0.952-2.539,2.857-2.539,2.857s-0.635,0.317-2.538,0.634   c-1.907,0.317-2.542,0-3.811,0.636c-1.271,0.634-4.127,1.269-4.127,1.269s-1.587,0.954-2.539,2.541   c-0.954,1.587,0.952,0.317-0.954,1.587c-1.903,1.27-3.49,0.318-4.126,1.27c-0.634,0.953,0-0.634-0.634,0.953   c-0.636,1.587,0.951,1.903,0.951,2.856c0,0.951,0.318,2.54,0.318,2.54s-0.636,1.586-1.27,2.856   c-0.171,0.341-0.55,1.053-1.012,1.907h1.22h2.963h4.656l3.387-0.847l2.538-1.269l0.424,4.655l2.963,0.423l2.964-0.423l3.385,1.27   l0.847-3.387l3.386-0.423l3.385-2.962c5.08-1.271,7.197-5.079,7.197-5.079l2.539-6.349l1.27-2.54l2.54-4.233l2.116-2.962   l2.183-0.991c-0.702-0.854-1.335-1.551-1.335-1.551L324.614,374.858z"></path>
 												<path className="map_city3" fill="#118ac9" stroke="#FFFFFF" strokeMiterlimit="10" d="M257.634,330.416l2.54-1.268l3.492-0.318l1.586,3.491l3.175,0.317   l2.856-1.27c0,0,0.317-2.856,0.317-3.809s1.271-3.811,1.271-3.811s0.635-1.27,0.952-2.221c0.318-0.952,0.318-1.588,0.318-2.541   c0-0.951,0-2.222,0-2.222l0.952-1.905c0,0,0,0,2.539,0s2.539-1.586,2.539-1.586l-0.635-1.905l-1.586-2.538l0.951-2.223v-2.54   c0,0-0.635-2.539-1.27-3.491c-0.634-0.953-3.81-1.27-3.81-1.27h-6.35l-4.443,2.538l-3.491,2.858l-1.271,2.856l-1.27,2.54   l-2.856-0.318l-0.317-3.174l-1.588-0.953l-4.127,0.636l-2.856,2.857l-1.271,1.586l1.589,2.54l4.443,0.951l2.222,1.27v2.541   l-2.222,1.27l-3.81,0.635l-1.588,4.128l1.905,3.808l0.636,2.222l-1.271,1.588l-1.586,1.27l-2.223-1.587h-1.269l0.316,2.223   l0.952,2.221l1.588,1.589l0.316,3.174c0,0,2.223-0.635,3.176-0.635c0.951,0,5.396-1.27,5.396-1.27l2.54-3.81l0.444,0.963   l0.509-2.232L257.634,330.416z"></path>
@@ -159,3 +178,4 @@ export default class Infection extends Component {
     )
   }
 }
+
