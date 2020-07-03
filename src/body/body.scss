@@ -24,6 +24,12 @@ h1 {
 	}
 }
 
+@media(max-width : 480px){
+	h1 {
+		font-size: 3rem;
+	}
+}
+
 .snow {
 	position: absolute;
 	min-width: 100vw;

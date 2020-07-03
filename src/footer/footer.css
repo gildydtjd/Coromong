@@ -25,3 +25,10 @@ p {
   font : 400 14px/ 40px 'Open Sans', sans-serif;
 }
 
+@media(max-width : 480px){
+  .footer{
+    padding: 20px 10px;
+    max-height: 15vh;
+  }
+}
+

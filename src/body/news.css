@@ -20,3 +20,15 @@
 .news_hr{
   text-align: center;
 }
+
+@media(max-width : 480px){
+  .news_box{
+    font-size: 2px;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .newsImage1{
+    width: 35%;
+    height: 50%;
+  }
+}

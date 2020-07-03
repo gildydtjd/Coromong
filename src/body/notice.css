@@ -36,3 +36,9 @@
   vertical-align: top;
   border-bottom: 1px solid #ccc;
 }
+
+@media(max-width : 480px){
+  .notice_table td {
+    font-size: 5px;
+  }
+}

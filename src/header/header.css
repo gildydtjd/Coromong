@@ -19,3 +19,15 @@
   color :cornflowerblue;
 }
 
+@media(max-width : 480px){
+  .header{
+    padding: 30px 5px;
+  }
+
+  .menu {
+    font-size: 15px;
+    margin-right: 0px;
+    padding: 10px;
+  }
+}
+
