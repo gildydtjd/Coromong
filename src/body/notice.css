@@ -38,6 +38,9 @@
 }
 
 @media(max-width : 480px){
+  .notice_table {
+    width: 90%;
+  }
   .notice_table td {
     font-size: 5px;
   }
