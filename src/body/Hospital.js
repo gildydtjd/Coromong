@@ -32,7 +32,7 @@ export default class Hospital extends Component {
      return (
       <div className="hospital">
         <div style={{width : '20%'}}>
-        <img src="../Img/hospital.PNG" style={{width : '60%'}}></img>
+        <img src="./Img/hospital.PNG" style={{width : '60%'}} alt=""></img>
         <h1 className="mask_title">병원 조회</h1>
         <label className="form-label" for="formBasicEmail">병원을 찾을 주소를 입력해 주세요</label>
         <form onSubmit={this.handleSubmit} className="search_form">
@@ -43,7 +43,7 @@ export default class Hospital extends Component {
           name="name"
           class="form-control"
         />
-        <Link to={"/Mask/" + this.state.name}><button type="submit" className="btn-primary">병원 조회</button></Link>
+        <Link to={"/Hospital/" + this.state.name}><button type="submit" className="btn-primary">병원 조회</button></Link>
       </form>
       </div>
       </div>
