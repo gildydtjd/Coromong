@@ -32,7 +32,7 @@ export default class Mask extends Component {
      return (
       <div className="mask">
         <div style={{width : '20%'}}>
-        <img src="./Img/mask.PNG" style={{width : '60%'}}></img>
+        <img src="../Img/mask.PNG" style={{width : '60%'}}></img>
         <h1 className="mask_title">마스크 판매처 조회</h1>
         <label className="form-label" for="formBasicEmail">판매처를 찾을 주소를 입력해 주세요</label>
         <form onSubmit={this.handleSubmit} className="search_form">

@@ -23,6 +23,8 @@ export default class Infection extends Component {
   render() {
     return (
       <div className="infection">
+				<img src="../Img/good.PNG" style={{ width : "1000px"}}></img>
+				<img src="../Img/good1.PNG" style={{ height : "150px"}}></img>
 			</div>
     )
   }
