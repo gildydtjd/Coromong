@@ -37,7 +37,7 @@ export default class Hospital extends Component {
         <label className="form-label" for="formBasicEmail">병원을 찾을 주소를 입력해 주세요</label>
         <form onSubmit={this.handleSubmit} className="search_form">
         <input
-          placeholder="이름"
+          placeholder="주소"
           value={this.state.name}
           onChange={this.handleChange}
           name="name"
